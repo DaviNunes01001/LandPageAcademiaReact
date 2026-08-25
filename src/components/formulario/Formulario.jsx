@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { z } from "zod";
-import { FaUser, FaCommentDots, FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 
 const schema = z.object({
   nome: z
@@ -101,7 +101,6 @@ function Formulario() {
             htmlFor="nome"
             className="mb-1.5 flex items-center gap-2 text-sm font-semibold text-[#F5F5F5]"
           >
-            <FaUser className="text-[#DC2626]" />
             Nome completo
           </label>
           <input
@@ -177,7 +176,6 @@ function Formulario() {
             htmlFor="mensagem"
             className="mb-1.5 flex items-center gap-2 text-sm font-semibold text-[#F5F5F5]"
           >
-            <FaCommentDots className="text-[#DC2626]" />
             Mensagem
           </label>
           <textarea
