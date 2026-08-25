@@ -116,10 +116,11 @@ const Home = () => {
   return (
     <main className="bg-[#0B0B0B] text-[#F5F5F5]">
       {/* hero */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0B0B0B] via-[#0B0B0B]/80 to-[#0B0B0B] z-10" />
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20  bg-cover bg-center bg-no-repeat"
+       style={{ backgroundImage: "url('/Gymage.jpg')" }}>
+        <div className="absolute inset-0   from-[#0B0B0B] via-[#0B0B0B]/80 to-[#0B0B0B] z-10" />
         <div
-          className="absolute inset-0 opacity-30"
+          className="absolute inset-0 bg-black/50"
           style={{
             backgroundImage:
               "radial-gradient(ellipse at 30% 50%, rgba(220,38,38,0.15) 0%, transparent 50%), radial-gradient(ellipse at 70% 80%, rgba(220,38,38,0.08) 0%, transparent 40%)",
