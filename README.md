@@ -54,6 +54,45 @@ npm install
 npm run dev
 ```
 
+Para colocar no README, você pode listar assim:
+
+### Dependências
+
+```bash
+npm install react react-dom react-icons react-router react-router-dom router tailwindcss @tailwindcss/vite zod
+```
+
+### Dependências de desenvolvimento
+
+```bash
+npm install -D @types/react @types/react-dom @vitejs/plugin-react oxlint vite
+```
+
+### Instalação completa do projeto
+
+Se alguém clonar o projeto, **não precisa instalar cada dependência manualmente**. Basta executar:
+
+```bash
+npm install
+```
+
+O `npm` vai ler o `package.json` e instalar todas as dependências e versões definidas nele.
+
+Para iniciar o projeto:
+
+```bash
+npm run dev
+```
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+**Observação:** seu projeto possui `react-router`, `react-router-dom` e `router`. Para um projeto React com navegação usando `BrowserRouter`, `Routes`, `Route` e `NavLink`, normalmente você só precisa de `react-router-dom`. `router` e o pacote `react-router` podem ser desnecessários dependendo de como o projeto está sendo usado.
+
+
 ## Status do projeto
 
 Em desenvolvimento.
