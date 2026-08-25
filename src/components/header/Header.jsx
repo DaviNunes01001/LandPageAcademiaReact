@@ -3,7 +3,7 @@ import { FaHome, FaDumbbell, FaPhone } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className="flex min-h-[100px] w-full flex-col items-center justify-center gap-4 bg-[#DC2626] px-4 md:flex-row md:justify-around">
+    <header className="flex min-h-[80px] w-full flex-col items-center justify-center gap-4 bg-[#8f0606] px-4 md:flex-row md:justify-around">
       <h1 className="text-[30px] italic font-semibold md:text-[35px]">GicosFit</h1>
 
       <nav className="flex flex-col items-center gap-3 md:flex-row md:gap-8">
