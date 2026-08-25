@@ -8,7 +8,7 @@ import Contato from "./pages/Contato.jsx"
 
 function App() {
 return (  
-  <div className="min-h-screen bg-gray-900 text-slate-900">
+  <div className="min-h-screen bg-gray-900 text-white">
     <Header/>
     <div>
       <Routes>
