@@ -36,7 +36,7 @@ function Contato() {
                 <div>
                   <p className="font-semibold text-[#F5F5F5]">Endereço</p>
                   <p className="text-sm text-[#F5F5F5]/60 mt-0.5">
-                    Rua Exemplo, 123 — Centro
+                    Rua Belterra, 101 — Centro
                     <br />
                     São Paulo, SP — CEP 01000-000
                   </p>
@@ -64,9 +64,9 @@ function Contato() {
                 <div>
                   <p className="font-semibold text-[#F5F5F5]">E-mail</p>
                   <p className="text-sm text-[#F5F5F5]/60 mt-0.5">
-                    contato@empresa.com.br
+                    gicos@gym.com.br
                     <br />
-                    suporte@empresa.com.br
+                    GIcosuporte@gym.com.br
                   </p>
                 </div>
               </li>
