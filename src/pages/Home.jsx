@@ -146,13 +146,13 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="/assinatura">
+            <a href="/*">
               <Button size="lg" className="min-w-[200px]">
                 Começar agora
                 <FiArrowRight size={18} />
               </Button>
             </a>
-            <a href="/#modalidades">
+            <a href="/*">
               <Button variant="secondary" size="lg" className="min-w-[200px]">
                 <FiPlay size={18} />
                 Ver modalidades
