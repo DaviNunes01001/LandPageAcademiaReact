@@ -1,5 +1,5 @@
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
-import Formulario from "../components/formulario/Formulario";
+import Formulario from "../components/Formulario/Formulario";
 
 function Contato() {
   return (
