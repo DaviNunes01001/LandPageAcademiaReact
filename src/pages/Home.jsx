@@ -9,8 +9,8 @@ import {
 } from "react-icons/fi";
 import { GiMuscleUp, GiWeightLiftingUp, GiRunningShoe } from "react-icons/gi";
 import { MdSportsGymnastics } from "react-icons/md";
-import Button from "../components/button/Button";
-import Card from "../components/card/Card";
+import Button from "../components/Button/Button";
+import Card from "../components/Card/Card";
 
 const benefits = [
   {
