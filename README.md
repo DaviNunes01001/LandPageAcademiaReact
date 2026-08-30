@@ -1,6 +1,7 @@
 # Academia — Projeto React
 
 Projeto de uma aplicação web para uma academia, desenvolvido em React.
+link de acesso - ([LandpageAcademia](https://land-page-academia-react-xfg6.vercel.app/))
 
 ## Status
 
