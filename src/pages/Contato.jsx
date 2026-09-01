@@ -1,15 +1,24 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaClock,
+} from "react-icons/fa";
 import Formulario from "../components/formulario/Formulario";
 
 function Contato() {
   return (
     <main className="min-h-[calc(100vh-100px)] bg-[#0B0B0B]">
-      <section className="bg-[#DC2626] text-[#F5F5F5] py-12 sm:py-16">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            Fale conosco
-          </h1>
-          <p className="mt-3 text-[#F5F5F5]/90 max-w-xl mx-auto text-base sm:text-lg">
+      <section
+        className="min-h-[300px] bg-cover bg-center bg-no-repeat py-12 text-white sm:py-16"
+        style={{
+          backgroundImage: "url('/Gymage.jpg')",
+        }}
+      >
+        <div className="mx-auto max-w-5xl px-4 text-center">
+          <h1 className="text-3xl font-bold sm:text-4xl">Fale conosco</h1>
+
+          <p className="mx-auto mt-3 max-w-xl text-base sm:text-lg">
             Tem alguma dúvida, sugestão ou quer fazer uma parceria? Envie sua
             mensagem e retornaremos o mais rápido possível.
           </p>
@@ -76,7 +85,9 @@ function Contato() {
                   <FaClock className="text-lg" />
                 </span>
                 <div>
-                  <p className="font-semibold text-[#F5F5F5]">Horário de atendimento</p>
+                  <p className="font-semibold text-[#F5F5F5]">
+                    Horário de atendimento
+                  </p>
                   <p className="text-sm text-[#F5F5F5]/60 mt-0.5">
                     Segunda a Sexta: 9h às 18h
                     <br />

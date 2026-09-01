@@ -116,7 +116,7 @@ const Home = () => {
   return (
     <main className="bg-[#0B0B0B] text-[#F5F5F5]">
       {/* hero */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20  bg-cover bg-center bg-no-repeat"
+      <section className=" bg-black/50 relative min-h-screen flex items-center justify-center overflow-hidden pt-20  bg-cover bg-center bg-no-repeat"
        style={{ backgroundImage: "url('/Gymage.jpg')" }}>
         <div className="absolute inset-0   from-[#0B0B0B] via-[#0B0B0B]/80 to-[#0B0B0B] z-10" />
         <div
