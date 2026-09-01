@@ -265,7 +265,7 @@ const Home = () => {
             <div className="group">
               <div className="aspect-[3/4] overflow-hidden rounded-lg border border-[#2a2a2a] mb-5">
                 <img
-                  src="./public/image.png"
+                  src="/image.png"
                   alt="Personal 1"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
@@ -283,7 +283,7 @@ const Home = () => {
             <div className="group">
               <div className="aspect-[3/4] overflow-hidden rounded-lg border border-[#2a2a2a] mb-5">
                 <img
-                  src="./public/wow.png"
+                  src=".wow.png"
                   alt="Personal 2"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
