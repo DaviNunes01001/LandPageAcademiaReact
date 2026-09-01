@@ -1,6 +1,7 @@
 # Academia — Projeto React
 
 Projeto de uma aplicação web para uma academia, desenvolvido em React.
+link de acesso - ([LandpageAcademia](https://land-page-academia-react-xfg6.vercel.app/))
 
 ## Status
 
@@ -89,10 +90,6 @@ Para gerar a versão de produção:
 ```bash
 npm run build
 ```
-
-**Observação:** seu projeto possui `react-router`, `react-router-dom` e `router`. Para um projeto React com navegação usando `BrowserRouter`, `Routes`, `Route` e `NavLink`, normalmente você só precisa de `react-router-dom`. `router` e o pacote `react-router` podem ser desnecessários dependendo de como o projeto está sendo usado.
-
-
 ## Status do projeto
 
 Em desenvolvimento.
